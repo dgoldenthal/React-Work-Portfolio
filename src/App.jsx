@@ -25,9 +25,9 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-gray-50">
+    <div className="min-h-screen flex flex-col">
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
-      <main className="flex-grow">
+      <main className="flex-1">
         {renderPage()}
       </main>
       <Footer />

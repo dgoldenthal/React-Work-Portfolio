@@ -1,25 +1,20 @@
 import React from 'react';
 
 const Navigation = ({ currentPage, setCurrentPage }) => {
-  const navItems = [
-    { id: 'about', title: 'About Me' },
-    { id: 'portfolio', title: 'Portfolio' },
-    { id: 'contact', title: 'Contact' },
-    { id: 'resume', title: 'Resume' }
-  ];
-
   return (
-    <nav>
+    <nav className="header-nav"> {/* Added the new class here */}
       <ul className="flex space-x-6">
-        {navItems.map((item) => (
-          <li key={item.id}>
+        {['about', 'portfolio', 'contact', 'resume'].map((page) => (
+          <li key={page}>
             <button
-              onClick={() => setCurrentPage(item.id)}
-              className={`hover:text-blue-400 transition-colors ${
-                currentPage === item.id ? 'text-blue-400 font-bold' : ''
+              onClick={() => setCurrentPage(page)}
+              className={`px-4 py-2 rounded ${
+                currentPage === page 
+                  ? 'bg-white text-slate-800' 
+                  : 'text-gray-300 hover:text-white'
               }`}
             >
-              {item.title}
+              {page === 'about' ? 'About Me' : page.charAt(0).toUpperCase() + page.slice(1)}
             </button>
           </li>
         ))}

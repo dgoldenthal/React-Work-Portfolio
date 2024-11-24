@@ -7,24 +7,24 @@ const Footer = () => {
   const socialLinks = [
     {
       name: 'GitHub',
-      url: 'https://github.com/yourusername',
+      url: 'https://github.com/dgoldenthal',
       icon: GitHubIcon
     },
     {
       name: 'LinkedIn',
-      url: 'https://linkedin.com/in/yourusername',
+      url: 'https://www.linkedin.com/in/dov-g-6a19582/',
       icon: LinkedInIcon
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/yourusername',
+      url: 'https://twitter.com/dgoldenthal132',
       icon: TwitterIcon
     }
   ];
 
   return (
-    <footer className="bg-slate-800 text-white py-6 mt-auto">
-      <div className="container mx-auto px-4">
+    <footer className="w-full bg-slate-800 text-white py-6">
+      <div className="max-w-screen-2xl mx-auto px-4">
         <div className="flex flex-col items-center space-y-4">
           <div className="flex space-x-6">
             {socialLinks.map((link) => (
