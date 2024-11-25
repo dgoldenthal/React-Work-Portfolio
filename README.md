@@ -132,5 +132,7 @@ MIT License - See LICENSE file for details
 
 ## Deployment
 
-The application is deployed using [netlify.com]. 
+The application is deployed using [https://netlify.com].
+
 You can view the live site at [https://dreamy-platypus-3234b3.netlify.app/].
+
