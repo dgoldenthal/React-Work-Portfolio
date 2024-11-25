@@ -128,7 +128,7 @@ MIT License - See LICENSE file for details
 
 ## Screenshots
 
-[https://github.com/dgoldenthal/React-Work-Portfolio/public/assets/images/Screenshot.png]
+![Home Page](./public/assets/images/Screenshot.png)
 
 ## Deployment
 
