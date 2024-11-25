@@ -14,7 +14,7 @@ const Portfolio = () => {
       title: "Project 2",
       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&h=400",
       description: "A modern web application using APIs",
-      deployedUrl: "https://api.openweathermap.org",
+      deployedUrl: "https://weather-forecast-dashboard-4jc1.onrender.com/",
       githubUrl: "https://github.com/dgoldenthal/Weather-Forecast-Dashboard"
     },
 

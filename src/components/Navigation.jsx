@@ -10,8 +10,8 @@ const Navigation = ({ currentPage, setCurrentPage }) => {
               onClick={() => setCurrentPage(page)}
               className={`px-4 py-2 rounded ${
                 currentPage === page 
-                  ? 'bg-white text-slate-800' 
-                  : 'text-gray-300 hover:text-white'
+                  ? 'bg-gray text-slate-800' 
+                  : 'text-gray-300 hover:text-gray-700'
               }`}
             >
               {page === 'about' ? 'About Me' : page.charAt(0).toUpperCase() + page.slice(1)}

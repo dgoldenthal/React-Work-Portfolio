@@ -30,26 +30,31 @@ The portfolio features a clean, professional design with sections for About Me, 
 ## Installation
 
 1. Clone the repository
+
 ```bash
 git clone git@github.com/dgoldenthal/React-Work-Portfolio.git
 ```
 
 2. Navigate to the project directory
+
 ```bash
 cd React-Work-Portfolio
 ```
 
 3. Install dependencies
+
 ```bash
 npm install
 ```
 
 4. Start the development server
+
 ```bash
 npm run dev
 ```
 
 5. Build for production
+
 ```bash
 npm run build
 ```
@@ -59,25 +64,30 @@ npm run build
 The portfolio website consists of four main sections:
 
 ### About Me
+
 - Brief introduction and background
 - Professional summary
 
 ### Portfolio
+
 - Showcase of completed projects
 - Links to live deployments and GitHub repositories
 - Project descriptions and technologies used
 
 ### Contact
+
 - Contact form with validation
 - Direct email capability
 - Error handling and success messages
 
 ### Resume
+
 - Downloadable resume
 - List of technical skills
 - Frontend and backend proficiencies
 
 ## Project Structure
+
 ```
 React-Work-Portfolio/
 ├── src/
@@ -101,6 +111,7 @@ React-Work-Portfolio/
 ## Contributing
 
 This is a personal portfolio project, but if you have suggestions for improvements, feel free to:
+
 1. Fork the repository
 2. Create a new branch
 3. Submit a pull request
@@ -113,12 +124,11 @@ MIT License - See LICENSE file for details
 
 - Portfolio: [Your Portfolio URL]
 - GitHub: [https://github.com/dgoldenthal/React-Work-Portfolio]
-- LinkedIn: [Your LinkedIn Profile]
-- Email: [Your Email]
+- Email: [dgoldenthal@gmail.com]
 
 ## Screenshots
 
-[Add screenshots of your portfolio here]
+[https://github.com/dgoldenthal/React-Work-Portfolio/public/assets/images/screenshot.jpg]
 
 ## Deployment
 
