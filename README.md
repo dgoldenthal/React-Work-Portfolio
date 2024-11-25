@@ -110,7 +110,7 @@ React-Work-Portfolio/
 
 ## Contributing
 
-This is a personal portfolio project, but if you have suggestions for improvements, feel free to:
+This is a personal portfolio project:
 
 1. Fork the repository
 2. Create a new branch
@@ -122,14 +122,15 @@ MIT License - See LICENSE file for details
 
 ## Contact
 
-- Portfolio: [Your Portfolio URL]
+- App: [https://dreamy-platypus-3234b3.netlify.app/]
 - GitHub: [https://github.com/dgoldenthal/React-Work-Portfolio]
 - Email: [dgoldenthal@gmail.com]
 
-## Screenshots
+## Screenshot
 
 ![Home Page](./public/assets/images/Screenshot.png)
 
 ## Deployment
 
-The application is deployed using [Your Deployment Platform]. You can view the live site at [Your Deployed URL].
+The application is deployed using [netlify.com]. 
+You can view the live site at [https://dreamy-platypus-3234b3.netlify.app/].
